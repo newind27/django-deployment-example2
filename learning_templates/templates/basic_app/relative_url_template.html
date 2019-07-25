@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Welcome to Relative URL Templates</h1>
+        <!-- Below, in the code {% url 'basic_app:other' %}:  -->
+        <!--    basic_app corresponds to the app_name variable in project_name/app_name/urls.py-->
+        <!--    other corresponds to a  view name in the urlpatterns variable in project_name/app_name/urls.py-->
+        <!--  Note: don't add space before and after single quotes in 'basic_app:other' -->
+        <a href="{% url 'basic_app:other' %}">The Other Page</a>
+        <a href="{% url 'admin:index'%}">Admin Page</a>
+        <a href="{% url 'index' %}">Link to Index</a>
+
+    </body>
+</html>
