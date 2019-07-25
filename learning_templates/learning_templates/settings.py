@@ -23,9 +23,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = '5v@1&_8z=$6*4vfsfuw_qrs)y4%)voklizo*ai$m#t#68jn(j&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["newind27.pythonanywhere.com"]
+ALLOWED_HOSTS = ['newind27.pythonanywhere.com']
 
 
 # Application definition
